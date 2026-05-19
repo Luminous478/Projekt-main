@@ -5,7 +5,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* TEXT */
+/*maintext*/
 p { color: #ECEEF0; }
 h1 { color: #ECEEF0; margin-bottom: 10px; }
 h2 { color: #ECEEF0; margin-top: 30px; }
@@ -16,7 +16,7 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   font-size: xx-large;
 }
 
-/* LAYOUT */
+/* layout*/
 .container {
   width: 90%;
   max-width: 1100px;
@@ -29,7 +29,7 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   align-items: center;
 }
 
-/* NAV */
+/* navbar */
 .nav {
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   text-decoration: none;
 }
 
-/* CART */
+/* cart */
 .cart-icon {
   width: 40px;
 }
@@ -69,7 +69,7 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* HERO */
+/* Hero */
 .hero {
   padding: 40px 0;
 }
@@ -79,7 +79,7 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   margin-top: 20px;
 }
 
-/* IMAGE */
+/* Image */
 .showcase-img {
   width: 500px;
   border-radius: 8px;
@@ -87,12 +87,12 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   margin-top: 10px;
 }
 
-/* SECTION */
+/* Section */
 .section {
   padding: 40px 0;
 }
 
-/* GRID & CARDS */
+/* grid and cards */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -206,7 +206,7 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   opacity: 0.9;
 }
 
-/* BUTTONS */
+/* Buttons */
 .btn {
   display: inline-block;
   background-color: #FFD500;
@@ -240,7 +240,7 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   transform: translateY(-2px);
 }
 
-/* FOOTER */
+/* Footer */
 .footer {
   margin-top: 15%;
 }
