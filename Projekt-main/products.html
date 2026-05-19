@@ -1,22 +1,84 @@
+<!DOCTYPE html>
 <html lang="sv">
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heliga Peters Koptrar | Produkter</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="startsida.html">Heliga Peters Koptrar</a>
+
+      <nav class="nav" aria-label="Huvudmeny">
+        <a class="nav-link" href="startsida.html">HEM</a>
+        <a class="nav-link active" href="products.html">Produkter</a>
+        <a class="nav-link" href="about.html">Om oss</a>
+      </nav>
+
+      <div class="cart">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/e-commerce-currency-shopping/shopping-cart-white-icon.png" alt="Varukorg" class="cart-icon">
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Våra produkter</h1>
+        <p>Välj mellan vår exklusiva samling av högpresterande helikoptrar.</p>
+        
+        <div class="grid">
 
         <div class="card">
-          <img src="https://aeropedia.com.au/wp-content/uploads/2019/05/Bell-429-GlobalRanger_Aeropedia-The-Encyclopedia-of-Aircraft.jpg" class="product-img" alt="Bell 429">
-          <h3>Bell 429</h3>
-          <p>Flexibel och populär modell för företag.</p>
+          <img src="https://assets.verticalmag.com/wp-content/uploads/2024/11/H160-Omni-Helicopters-International-and-GDHF-Welcome-their-First-Airbus-H160-Media-.jpg" class="product-img" alt="Airbus H160">
+          <h3>Airbus H160</h3>
+          <p>Modernt och effektivt design för många ändamål.</p>
+          <button class="product-btn" data-product="Airbus H160">Lägg till i kundvagn</button>
         </div>
 
         <div class="card">
           <img src="https://www.bjtonline.com/sites/bjtonline.com/files/s76c-complete-refurb-credit-flying-colours_040_hirez.jpg" class="product-img" alt="Sikorsky S-76">
           <h3>Sikorsky S-76</h3>
           <p>Klassisk VIP-helikopter med hög komfort.</p>
+          <button class="product-btn" data-product="Sikorsky S-76">Lägg till i kundvagn</button>
         </div>
 
         <div class="card">
           <img src="https://www.bjtonline.com/sites/bjtonline.com/files/styles/bjt30_article_large/public/aircraft/aw139-transport.jpg?itok=dlkx2wHs" class="product-img" alt="AW139">
           <h3>Leonardo AW139</h3>
           <p>Kraftfull multi-purpose helikopter.</p>
+          <button class="product-btn" data-product="Leonardo AW139">Lägg till i kundvagn</button>
+        </div>
+
+        <div class="card">
+          <img src="https://aeropedia.com.au/wp-content/uploads/2019/05/Bell-429-GlobalRanger_Aeropedia-The-Encyclopedia-of-Aircraft.jpg" class="product-img" alt="Bell 429">
+          <h3>Bell 429</h3>
+          <p>Flexibel och populär modell för företag.</p>
+          <button class="product-btn" data-product="Bell 429">Lägg till i kundvagn</button>
+        </div>
+
+        <div class="card card-placeholder">
+          <img src="https://media.istockphoto.com/id/1147021468/sv/foto/army-helikopter-pilot-ridning-helikopter.jpg?s=612x612&w=0&k=20&c=LftBujU4n4WJiM9cgD3-C8k4-GfYIPYYsyXQyhTdA9w=" class="product-img" alt="Kommer snart">
+          <div class="placeholder-overlay">
+            <div class="placeholder-content">
+              <h3>Kommer snart</h3>
+              <p>Vi är ständigt på jakt efter nya och spännande modeller för vår samling.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-placeholder">
+          <img src="https://media.istockphoto.com/id/1147021468/sv/foto/army-helikopter-pilot-ridning-helikopter.jpg?s=612x612&w=0&k=20&c=LftBujU4n4WJiM9cgD3-C8k4-GfYIPYYsyXQyhTdA9w=" class="product-img" alt="Kommer snart">
+          <div class="placeholder-overlay">
+            <div class="placeholder-content">
+              <h3>Kommer snart</h3>
+              <p>Vi är ständigt på jakt efter nya och spännande modeller för vår samling.</p>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -26,9 +88,11 @@
 
 <footer class="footer">
   <div class="container">
-    <p>© 2026 Heliga Peters Koptrar AB</p>
+    <p>© Heliga Peters Koptrar AB 2026</p>
   </div>
 </footer>
 
 </body>
+<script src="script.js"></script>
+</html>
 </html>
