@@ -5,7 +5,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/*maintext*/
+/* TEXT */
+/* Huvudtext och rubriker: inställningar för färg och avstånd (p, h1, h2) */
 p { color: #ECEEF0; }
 h1 { color: #ECEEF0; margin-bottom: 10px; }
 h2 { color: #ECEEF0; margin-top: 30px; }
@@ -16,7 +17,8 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   font-size: xx-large;
 }
 
-/* layout*/
+/* LAYOUT */
+/* Layoutinställningar: container-bredd och centrering */
 .container {
   width: 90%;
   max-width: 1100px;
@@ -29,7 +31,8 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   align-items: center;
 }
 
-/* navbar */
+/* NAVBAR */
+/* Navigationsmenyn i headern: länkar och spacing */
 .nav {
   display: flex;
   justify-content: center;
@@ -41,7 +44,8 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   text-decoration: none;
 }
 
-/* cart */
+/* KUNDVAGN */
+/* Kundvagnsikon och räknare i headern */
 .cart-icon {
   width: 40px;
 }
@@ -69,7 +73,8 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Hero */
+/* HERO */
+/* Stora introduktionssektionen högst upp (bild + CTA) */
 .hero {
   padding: 40px 0;
 }
@@ -79,7 +84,8 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   margin-top: 20px;
 }
 
-/* Image */
+/* IMAGE */
+/* Inställningar för presentation/bild (storlek och rundning) */
 .showcase-img {
   width: 500px;
   border-radius: 8px;
@@ -87,12 +93,14 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   margin-top: 10px;
 }
 
-/* Section */
+/* SECTION */
+/* Generell sektion-padding för sidorna */
 .section {
   padding: 40px 0;
 }
 
-/* grid and cards */
+/* GRID OCH KORT */
+/* Grid-layout för produktkort och styling för korten */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -200,7 +208,8 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   opacity: 0.9;
 }
 
-/* Buttons */
+/* KNAPPAR */
+/* Primära knappar och produktknappar (utseende och hover) */
 .btn {
   display: inline-block;
   background-color: #FFD500;
@@ -248,5 +257,5 @@ li {
 
 
 .about-us {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
