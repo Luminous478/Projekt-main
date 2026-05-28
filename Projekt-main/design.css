@@ -174,14 +174,8 @@ h2 { color: #ECEEF0; margin-top: 30px; }
   pointer-events: none;
 }
 
-@keyframes shadowShift {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(30px, 20px);
-  }
-}
+
+
 
 .placeholder-content {
   text-align: center;
@@ -252,3 +246,7 @@ li {
   margin-top: 5px;
 }
 
+
+.about-us {
+  margin-bottom: 100px;
+}
